@@ -13,9 +13,9 @@ class SightingSerializer
         only: [:latitude, :longitude]
       }
     },
-    except: [:updated_at],
-  }
-  @sighting.to_json(options)
+      except: [:updated_at],
+    }
+    @sighting.to_json(options)
 
   end
 
