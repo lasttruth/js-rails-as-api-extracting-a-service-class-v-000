@@ -9,4 +9,5 @@ class SightingSerializer
       :location => {:only => [:latitude, :longitude]}
       }, :except => [:updated_at])
   end
+
 end
